@@ -65,7 +65,7 @@ h3 {
 .ac-text, .ac-sub-text {
   opacity: 0;
   height: 0;
-  right: 25;
+  right: 25px;
   margin-bottom: .5em;
   transition: opacity .5s ease-in-out;
   overflow: hidden;
@@ -80,6 +80,7 @@ h3 {
   background: none;
   font-weight: 600;
   padding: .5em 2em;
+  padding-right: 2.5em;
   margin-bottom: 0;
 
 }
