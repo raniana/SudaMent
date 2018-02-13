@@ -25,6 +25,7 @@ h3 {
   position: relative;
   padding: .5em 1em;
   margin-bottom: .5em;
+  padding-right: 2.5em;
   display: block;
   cursor: pointer;
   background-color: whiteSmoke;
@@ -64,6 +65,7 @@ h3 {
 .ac-text, .ac-sub-text {
   opacity: 0;
   height: 0;
+  right: 25;
   margin-bottom: .5em;
   transition: opacity .5s ease-in-out;
   overflow: hidden;
