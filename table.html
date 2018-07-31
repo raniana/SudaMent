@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/style.css"> 
 <style>
 * {
     box-sizing: border-box;
@@ -13,6 +13,7 @@
 
 body {
     margin: 0;
+    max-height: 100%;
 }
 /* Style the header */
 .header {
@@ -33,7 +34,7 @@ body {
     -ms-flex: 1;
     flex: 1;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 600px; /* Should be removed. Only for demonstration */
     overflow-y: scroll;
 }
 
@@ -57,10 +58,9 @@ body {
 
 
 <div class="header">
-  <h2>Header</h2>
-  <h3>CSS Template using Flexbox</h3>
-  <p>In this example, we have created a header, three equal columns and a footer. On smaller screens, the columns will stack on top of each other. Resize the browser window to see the responsive effect.</p>
-  <p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 eand earlier versions.</p>
+  <h2>Sudan Plan Mentors</h2>
+  <h3>عشان بنقدر</h3>
+  
 </div>
 
 <div class="row">
@@ -95,7 +95,13 @@ body {
         <input class="ac-input" id="ac-3" name="ac-3" type="checkbox" />
         <label class="ac-label" for="ac-3">فقه</label>
         <article class="ac-sub-text">
-          <p>all the more striking for its brevity.</p>
+          <ul style="list-style-type:square">
+            <li>الباب الاول</li>
+            <li>الباب الثاني</li>
+            <li>الباب الثالث </li>
+            <li>الباب الرابع</li>
+            <li>الباب الخامس </li>
+          </ul>
         </article>
       </div>
 
@@ -116,6 +122,13 @@ body {
         <input class="ac-input" id="ac-5" name="ac-5" type="checkbox" />
         <label class="ac-label" for="ac-5">قواعد</label>
         <article class="ac-sub-text">
+          <ul style="list-style-type:square">
+            <li>الباب الاول</li>
+            <li>الباب الثاني</li>
+            <li>الباب الثالث </li>
+            <li>الباب الرابع</li>
+            <li>الباب الخامس </li>
+          </ul>
         </article>
       </div>
 
@@ -123,13 +136,60 @@ body {
         <input class="ac-input" id="ac-6" name="ac-6" type="checkbox" />
         <label class="ac-label" for="ac-6">انشاء</label>
         <article class="ac-sub-text">
-          <p>My younger brother was</p>
+          <ul style="list-style-type:square">
+            <li>الباب الاول</li>
+            <li>الباب الثاني</li>
+            <li>الباب الثالث </li>
+            <li>الباب الرابع</li>
+            <li>الباب الخامس </li>
+          </ul>
         </article>
       </div>
 
     </article><!--/ac-text-->
 
   </div><!--/ac-->
+
+  <div class="ac">
+
+    <input class="ac-input" id="ac-7" name="ac-7" type="checkbox" />
+    <label class="ac-label" for="ac-7">اللغة الانجليزية</label>
+
+    <article class="ac-text">
+
+      <div class="ac-sub">
+        <input class="ac-input" id="ac-8" name="ac-8" type="checkbox" />
+        <label class="ac-label" for="ac-8">Grammer</label>
+        <article class="ac-sub-text">
+          <ul style="list-style-type:square">
+            <li>Part1</li>
+            <li>Part2</li>
+            <li>Part3</li>
+            <li>Part4</li>
+            <li>Part5</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="ac-sub">
+        <input class="ac-input" id="ac-9" name="ac-9" type="checkbox" />
+        <label class="ac-label" for="ac-9">Vocabulary</label>
+        <article class="ac-sub-text">
+          <ul style="list-style-type:square">
+            <li>Part1</li>
+            <li>Part2</li>
+            <li>Part3</li>
+            <li>Part4</li>
+            <li>Part5</li>
+          </ul>
+        </article>
+      </div>
+
+    </article><!--/ac-text-->
+
+  </div><!--/ac-->
+
+
 </section>
 
       
